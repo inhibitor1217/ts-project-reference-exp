@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "noEmit": true,
+    "strict": true,
+    "lib": [
+      "dom",
+      "esnext",
+    ],
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "*": ["node_modules/*"],
+    }
+  }
+}

@@ -7,13 +7,19 @@
     "url": "https://github.com/inhibitor1217/ts-project-reference-exp.git"
   },
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc -b -v",
+    "build:core": "tsc -b src -v",
+    "build:foo": "tsc -b package/foo -v",
+    "build:bar": "tsc -b package/bar -v"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "devDependencies": {
+    "@types/node": "^16.11.7",
     "cz-conventional-changelog": "^3.3.0",
     "typescript": "^4.4.4"
   }
