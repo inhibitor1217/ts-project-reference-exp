@@ -1,0 +1,20 @@
+{
+  "name": "ts-project-reference-exp",
+  "version": "0.1.0",
+  "main": "dist/bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inhibitor1217/ts-project-reference-exp.git"
+  },
+  "license": "MIT",
+  "scripts": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "^4.4.4"
+  }
+}

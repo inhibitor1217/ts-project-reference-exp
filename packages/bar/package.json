@@ -1,0 +1,11 @@
+{
+  "name": "@example-project/bar",
+  "version": "0.1.0",
+  "main": "dist/bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inhibitor1217/ts-project-reference-exp.git"
+  },
+  "license": "MIT",
+  "scripts": {}
+}
