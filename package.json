@@ -10,8 +10,8 @@
   "scripts": {
     "build": "tsc -b -v",
     "build:core": "tsc -b src -v",
-    "build:foo": "tsc -b package/foo -v",
-    "build:bar": "tsc -b package/bar -v"
+    "build:foo": "tsc -b packages/foo -v",
+    "build:bar": "tsc -b packages/bar -v"
   },
   "config": {
     "commitizen": {

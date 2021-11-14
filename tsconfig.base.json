@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "es6",
     "experimentalDecorators": true,
-    "baseUrl": ".",
     "strict": true,
+    "moduleResolution": "node",
     "declaration": true,
     "composite": true,
     "lib": [
